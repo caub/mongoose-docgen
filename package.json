@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-docgen",
+  "version": "1.0.0",
+  "description": "Mongoose Documentation Generator",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "bash -c 'cmp examples/User.md <(node index examples/User.js)'"
+  },
+  "bin": {
+    "mongoose-docgen": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caub/mongoose-docgen.git"
+  },
+  "author": "caub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caub/mongoose-docgen/issues"
+  },
+  "homepage": "https://github.com/caub/mongoose-docgen#readme"
+}
